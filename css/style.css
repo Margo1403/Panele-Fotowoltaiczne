@@ -26,7 +26,22 @@
     font-style: normal;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .intro {
     background-image: url("../img/bg.jpg");
     
+}
+
+
+.header-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.active {
+    color: #FF7129;
 }
