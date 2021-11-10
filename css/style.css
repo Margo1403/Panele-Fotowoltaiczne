@@ -81,6 +81,82 @@ body {
 
 }
 
+main {
+    margin: 0;
+    padding: 0; 
+}
+
+.dg img {
+
+}
+
+.solar img {
+
+}
+
+.energy img {
+
+}
+
+.section-title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 111px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    padding-left: 320px;
+    padding-top: 271px;
+    padding-right: 319px;
+    padding-bottom: 462px;
+  
+    
+}
+
+.info-text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    padding-left: 546px;
+    padding-top: 398px;
+    padding-right: 546px;
+    padding-bottom: 398px;
+}
+
+.orange {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #FFFFFF; 
+    background: #FF7129;
+
+    padding-left: 706px;
+    padding-top: 505px;
+    padding-right: 707px;
+    padding-bottom: 290px;
+}
+
+.pfoto-paneli {
+
+}
+
+.tvij-dim img {
+
+}
+
 
 /* .intro {
     background-image: url("../img/bg.jpg");
