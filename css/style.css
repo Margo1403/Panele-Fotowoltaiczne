@@ -108,10 +108,8 @@ main {
     
     color: #FFFFFF;
 
-    padding-left: 320px;
-    padding-top: 271px;
-    padding-right: 319px;
-    padding-bottom: 462px;
+  padding-left: 320px;
+  padding-right: 319px;
   
     
 }
@@ -127,9 +125,7 @@ main {
     color: #FFFFFF;
 
     padding-left: 546px;
-    padding-top: 398px;
     padding-right: 546px;
-    padding-bottom: 398px;
 }
 
 .orange {
@@ -144,9 +140,8 @@ main {
     background: #FF7129;
 
     padding-left: 706px;
-    padding-top: 505px;
     padding-right: 707px;
-    padding-bottom: 290px;
+
 }
 
 .pfoto-paneli {
@@ -157,6 +152,46 @@ main {
 
 }
 
+.section-title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+   
+    
+    color: #20242D;
+ 
+    padding-left: 882px;
+    padding-top: 1136px;
+    padding-right: 428px;
+    padding-bottom: 806px;
+}
+
+.info-text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+
+color: #20242D;
+
+    padding-left: 865px;
+    padding-top: 1247px;
+    padding-right: 200px;
+    padding-bottom: 526px;
+    }
+
+.navigation {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-information {
+
+}
 
 /* .intro {
     background-image: url("../img/bg.jpg");
