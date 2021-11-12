@@ -108,8 +108,12 @@ main {
     
     color: #FFFFFF;
 
-  padding-left: 320px;
-  padding-right: 319px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 92px;
+    line-height: 111px;
+    text-align: center;
   
     
 }
@@ -124,9 +128,9 @@ main {
     
     color: #FFFFFF;
 
-    padding-left: 546px;
-    padding-right: 546px;
+
 }
+
 
 .orange {
     font-family: Gilroy;
@@ -139,9 +143,14 @@ main {
     color: #FFFFFF; 
     background: #FF7129;
 
-    padding-left: 706px;
-    padding-right: 707px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
 
+ 
+   
 }
 
 .pfoto-paneli {
@@ -162,11 +171,7 @@ main {
     
     color: #20242D;
  
-    padding-left: 882px;
-    padding-top: 1136px;
-    padding-right: 428px;
-    padding-bottom: 806px;
-}
+}   
 
 .info-text {
     font-family: Gilroy;
@@ -178,20 +183,123 @@ main {
 
 color: #20242D;
 
-    padding-left: 865px;
-    padding-top: 1247px;
-    padding-right: 200px;
-    padding-bottom: 526px;
-    }
+
+}
 
 .navigation {
     margin: 0;
     padding: 0;
+
+   
 }
 
 .navigation-information {
+  
+}
+
+.dg img {
 
 }
+
+.nav-list {
+  
+    
+}
+
+.nav-element {
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+
+color: #FF7129;
+}
+
+.nav-element {
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color:  #FFFFFF;
+}
+
+.button-transparent {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+     
+}
+
+.infirming-confidentiality {
+    font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+
+
+color: #7B7E85;
+}
+
+.data-protection {
+    font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+
+
+color: #7B7E85;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
 
 /* .intro {
     background-image: url("../img/bg.jpg");
