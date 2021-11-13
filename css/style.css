@@ -1,27 +1,27 @@
 @font-face {
     font-family: "Gilroy";
-    src: url("./fonts/Gilroy-Medium.woff2");
+    src: url("../fonts/Gilroy-Medium.woff2");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Gilroy";
-    src: url("./fonts/Gilroy-Regular.woff2");
+    src: url("../fonts/Gilroy-Regular.woff2");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Gilroy";
-    src: url("./fonts/Gilroy-Semibold.woff2");
+    src: url("../fonts/Gilroy-Semibold.woff2");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Gilroy";
-    src: url("./fonts/Gilroy-Bold.woff2");
+    src: url("../fonts/Gilroy-Bold.woff2");
     font-weight: 700;
     font-style: normal;
 }
@@ -31,6 +31,8 @@ body {
     padding: 0;
 }
 
+
+/* Хедер */
 .header-wrapper {
     padding-left: 50px;
     padding-right: 50px;
@@ -53,7 +55,7 @@ body {
 
 .header-block {
     background-color: #FFFFFF;
-   ;
+   
 }
 
 .logo img {
@@ -69,6 +71,10 @@ body {
     line-height: 17px;
 
     color: #20242D;
+}
+
+.nav-link {
+    text-decoration: none;
 }
 
 .nav-link-active {
@@ -181,7 +187,7 @@ main {
     line-height: 24px;
 
 
-color: #20242D;
+    color: #20242D;
 
 
 }
@@ -204,29 +210,6 @@ color: #20242D;
 .nav-list {
   
     
-}
-
-.nav-element {
-    font-family: Gilroy;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-
-
-color: #FF7129;
-}
-
-.nav-element {
-    font-family: Gilroy;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color:  #FFFFFF;
 }
 
 .button-transparent {
