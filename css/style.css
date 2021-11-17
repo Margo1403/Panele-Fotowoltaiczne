@@ -257,6 +257,7 @@ body {
 
 .header-block-main {
     background-color: #20242D;
+
 }
 
 .contact-link {
@@ -267,6 +268,7 @@ body {
     font-size: 12px;
     line-height: 14px;
     text-decoration: none;
+  
 }
 
 .logo img {
@@ -735,3 +737,61 @@ body {
     color: #FFFFFF;
 }
 
+.installation-panels {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info-text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+
+}
+
+.return-investment {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #20242D;
+
+}
+
+.solar-panel-info {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+    
+
+}
+
+.solar-panels {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+
+}
+
+.contact-link:first-child {
+    margin-right: auto;
+}
+
+.contact-link {
+    margin-right: 77px;
+}
