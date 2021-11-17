@@ -26,13 +26,12 @@
     font-style: normal;
 }
 
+/* head */
 body {
     margin: 0;
     padding: 0;
 }
 
-
-/* Хедер */
 .header-wrapper {
     padding-left: 50px;
     padding-right: 50px;
@@ -40,29 +39,35 @@ body {
 
 .header-block-main {
     background-color: #20242D;
+    display: flex;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  justify-content: ;
 }
 
-.contact-link {
-    color: #FFFFFF;
-    font-family: "Gilroy";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    
-    text-decoration: none;
-}
+
 
 .header-block {
     background-color: #FFFFFF;
-   
+    padding-top: 12px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .logo img {
 
 }
 
-
+.nav-link,
 .nav-element {
     font-family: Gilroy;
     font-style: normal;
@@ -73,20 +78,24 @@ body {
     color: #20242D;
 }
 
+.nav-element {
+    margin-right: 56px;
+}
+
+.nav-element:last-child {
+    margin: 0;
+}
+
 .nav-link {
     text-decoration: none;
 }
 
 .nav-link-active {
     color: #FF7129;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-
 }
 
+
+/* main */
 main {
     margin: 0;
     padding: 0; 
@@ -113,16 +122,9 @@ main {
     text-align: center;
     
     color: #FFFFFF;
-
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 92px;
-    line-height: 111px;
-    text-align: center;
-  
-    
+   
 }
+
 
 .info-text {
     font-family: Gilroy;
@@ -148,16 +150,9 @@ main {
     
     color: #FFFFFF; 
     background: #FF7129;
-
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
-
- 
-   
+  
 }
+
 
 .pfoto-paneli {
 
@@ -191,12 +186,10 @@ main {
 
 
 }
-
+/* footer */
 .navigation {
     margin: 0;
-    padding: 0;
-
-   
+    padding: 0;   
 }
 
 .navigation-information {
@@ -207,10 +200,7 @@ main {
 
 }
 
-.nav-list {
-  
-    
-}
+
 
 .button-transparent {
     font-family: Gilroy;
@@ -228,33 +218,435 @@ main {
 
 .infirming-confidentiality {
     font-family: Gilroy;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
 /* identical to box height */
 
-text-align: center;
+    text-align: center;
 
-
-
-color: #7B7E85;
+    color: #7B7E85;
 }
 
 .data-protection {
     font-family: Gilroy;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
 /* identical to box height */
 
-text-align: center;
+    text-align: center;
 
 
 
 color: #7B7E85;
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-block-main {
+    background-color: #20242D;
+}
+
+.contact-link {
+    color: #FFFFFF;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+}
+
+.logo img {
+
+}
+
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link-active {
+    color: #FF7129;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+main {
+    margin: 0;
+    padding: 0; 
+}
+
+.info {
+
+}
+
+.dg img {
+
+}
+
+.introductory-info {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    /* identical to box height, or 47px */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.wrapper-info {
+    
+}
+
+
+.info-text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+/* or 150% */
+
+
+    color: #20242D;
+}
+
+
+
+.navigation-information {
+  
+}
+
+.dg img {
+
+}
+
+
+
+.button-transparent {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+     
+}
+
+.infirming-confidentiality {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #7B7E85;
+}
+
+.data-protection {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+/* identical to box height */
+
+    text-align: center;
+
+
+
+    color: #7B7E85;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-block-main {
+    background-color: #20242D;
+}
+
+
+
+
+
+
+
+
+.nav-link-active {
+    color: #FF7129;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+
+main {
+    margin: 0;
+    padding: 0; 
+}
+
+
+.photo-gallery {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+
+}
+
+
+
+.button-transparent {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+     
+}
+
+.infirming-confidentiality {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-align: center;
+
+    color: #7B7E85;
+}
+
+.data-protection {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #7B7E85;
+}
+
+
+
+.header-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-block-main {
+    background-color: #20242D;
+}
+
+
+
+
+.logo img {
+
+}
+
+
+.nav-link-active {
+    color: #FF7129;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+main {
+    margin: 0;
+    padding: 0; 
+}
+
+.info {
+
+}
+
+.navigation {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+}
+
+.address {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    /* 4 */
+    
+    color: #7B7E85;
+    
+}
+
+.address-kontakt {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    /* main */
+    
+    color: #20242D;
+    
+}
+
+
+.email {
+    font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* 4 */
+
+color: #7B7E85;
+
+
+
+}
+
+.telefon-kontakt {
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* main */
+
+color: #20242D;
+
+}
+
+
+
+.navigation-information {
+  
+}
+
+.dg img {
+
+}
+
+
+
+.button-transparent {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+     
+}
+
+.infirming-confidentiality {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #7B7E85;
+}
+
+.data-protection {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+/* identical to box height */
+
+    text-align: center;
+
+
+
+color: #7B7E85;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -280,9 +672,26 @@ body {
     padding-right: 50px;
 }
 
+.header-block-main {
+    background-color: #20242D;
+}
 
 
 
+.logo img {
+
+}
+
+
+.nav-link-active {
+    color: #FF7129;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+}
 
 /* .intro {
     background-image: url("../img/bg.jpg");
@@ -297,3 +706,32 @@ body {
 .active {
     color: #FF7129;
 } */
+
+
+
+
+
+
+
+.section-title-small {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #20242D;
+}
+
+.installation-panels {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 87px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
