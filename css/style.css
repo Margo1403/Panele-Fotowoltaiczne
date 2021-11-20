@@ -42,7 +42,7 @@ body {
     display: flex;
    padding-top: 10px;
    padding-bottom: 10px;
-  justify-content: ;
+  /* justify-content: ; */
 }
 
 
@@ -113,7 +113,7 @@ main {
 
 }
 
-.section-title {
+.section-title-first {
     font-family: Gilroy;
     font-style: normal;
     font-weight: bold;
@@ -121,12 +121,13 @@ main {
     line-height: 111px;
     text-align: center;
     
-    color: #FFFFFF;
+    color:  #FFFFFF;
+  
    
 }
 
 
-.info-text {
+.info-text-first {
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
@@ -134,7 +135,7 @@ main {
     line-height: 24px;
     text-align: center;
     
-    color: #FFFFFF;
+    color:  #FFFFFF;
 
 
 }
@@ -150,7 +151,14 @@ main {
     
     color: #FFFFFF; 
     background: #FF7129;
-  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    padding-right:47px ;
+    padding-left: 48px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 
@@ -159,7 +167,10 @@ main {
 }
 
 .tvij-dim img {
-
+  
+ 
+  
+  
 }
 
 .section-title {
@@ -168,9 +179,11 @@ main {
     font-weight: bold;
     font-size: 48px;
     line-height: 97%;
-   
-    
     color: #20242D;
+    margin-left: 882px;
+    margin-right: 428px;
+ 
+    
  
 }   
 
@@ -180,10 +193,10 @@ main {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-
-
     color: #20242D;
-
+    margin-left: 865px;
+    margin-right: 200px;
+   
 
 }
 /* footer */
@@ -722,6 +735,9 @@ body {
     font-size: 36px;
     line-height: 44px;
     color: #20242D;
+    margin-right: 467px;
+    margin-left: 591px;
+    
 }
 
 .installation-panels {
@@ -794,4 +810,17 @@ body {
 
 .contact-link {
     margin-right: 77px;
+}
+
+.contact-link:last-child {
+    margin-right: 0;
+}
+
+
+
+
+.info-wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
 }
