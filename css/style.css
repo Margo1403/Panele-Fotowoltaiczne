@@ -59,13 +59,10 @@ body {
 .nav-list {
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
+  
 }
 
-.logo img {
 
-}
 
 .nav-link,
 .nav-element {
@@ -180,11 +177,8 @@ main {
     font-size: 48px;
     line-height: 97%;
     color: #20242D;
-    margin-left: 882px;
-    margin-right: 428px;
- 
-    
- 
+    margin-left: 45px;
+    margin-right: 228px; 
 }   
 
 .info-text {
@@ -194,16 +188,11 @@ main {
     font-size: 16px;
     line-height: 24px;
     color: #20242D;
-    margin-left: 865px;
-    margin-right: 200px;
+  
    
 
 }
-/* footer */
-.navigation {
-    margin: 0;
-    padding: 0;   
-}
+
 
 .navigation-information {
   
@@ -284,9 +273,6 @@ body {
   
 }
 
-.logo img {
-
-}
 
 
 .nav-link {
@@ -323,9 +309,8 @@ main {
     font-size: 48px;
     line-height: 97%;
     /* identical to box height, or 47px */
-    
-    
-    color: #FFFFFF;
+    color: #20242D;
+   margin-left: 217px;
     
 }
 
@@ -341,9 +326,8 @@ main {
     font-size: 16px;
     line-height: 24px;
 /* or 150% */
+ color: #20242D;
 
-
-    color: #20242D;
 }
 
 
@@ -526,12 +510,8 @@ main {
 }
 
 .navigation {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 97%;
-    color: #20242D;
+    background: #20242D;
+    
 }
 
 .address {
@@ -693,9 +673,6 @@ body {
 
 
 
-.logo img {
-
-}
 
 
 .nav-link-active {
@@ -770,6 +747,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #20242D;
+    margin-top: 180px;
+    margin-left: 28px;
 
 }
 
@@ -824,3 +803,14 @@ body {
     margin: 0 auto;
     max-width: 1200px;
 }
+
+
+.page-header {
+
+}
+
+  
+
+    
+
+
