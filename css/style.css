@@ -92,6 +92,34 @@ body {
 }
 
 
+.menu-link,
+.menu-element {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;;  
+}
+
+.menu-element {
+    margin-right: 56px; 
+}
+
+.menu-element:last-child {
+    margin: 0;
+}
+
+.menu-link {
+    text-decoration: none;
+}
+
+.menu-link-active {
+    color: #FF7129;
+}
+
+
 /* main */
 main {
     margin: 0;
@@ -194,10 +222,15 @@ main {
 }
 
 
-.navigation-information {
-  
-}
 
+.navugatuon-blok {
+    background-color: #20242D;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .dg img {
 
 }
@@ -218,18 +251,7 @@ main {
      
 }
 
-.infirming-confidentiality {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-/* identical to box height */
 
-    text-align: center;
-
-    color: #7B7E85;
-}
 
 .data-protection {
     font-family: Gilroy;
@@ -332,9 +354,7 @@ main {
 
 
 
-.navigation-information {
-  
-}
+
 
 .dg img {
 
@@ -356,18 +376,6 @@ main {
      
 }
 
-.infirming-confidentiality {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-/* identical to box height */
-
-    text-align: center;
-
-    color: #7B7E85;
-}
 
 .data-protection {
     font-family: Gilroy;
@@ -449,17 +457,6 @@ main {
      
 }
 
-.infirming-confidentiality {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-
-    text-align: center;
-
-    color: #7B7E85;
-}
 
 .data-protection {
     font-family: Gilroy;
@@ -486,6 +483,8 @@ main {
 
 
 .logo img {
+ 
+    
 
 }
 
@@ -510,8 +509,20 @@ main {
 }
 
 .navigation {
-    background: #20242D;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+   
+
+    margin-left: ;
+    margin-top: 125px;
     
+    
+  
+   
 }
 
 .address {
@@ -520,12 +531,10 @@ main {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-    
-    
-    /* 4 */
-    
     color: #7B7E85;
+  
+    
+ 
     
 }
 
@@ -535,53 +544,63 @@ main {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-    
-    
-    /* main */
-    
-    color: #20242D;
-    
+   color: #20242D;
+   margin-top: 149px;
+   margin-left: 201px;
 }
 
 
 .email {
+    ont-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+
+
+}
+
+.mail-to {
     font-family: Gilroy;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+    
+    margin-top: 357px;
+    margin-left: ;
+   
+}
 
 
-/* 4 */
+.tel {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
 
-color: #7B7E85;
-
-
-
+    
 }
 
 .telefon-kontakt {
     font-family: Gilroy;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-
-/* main */
-
-color: #20242D;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #20242D;
+    margin-top: ;
+    margin-left: ;
 
 }
 
 
 
-.navigation-information {
-  
-}
+
 
 .dg img {
 
@@ -610,10 +629,11 @@ color: #20242D;
     font-size: 12px;
     line-height: 14px;
 /* identical to box height */
-
     text-align: center;
-
     color: #7B7E85;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .data-protection {
@@ -625,14 +645,27 @@ color: #20242D;
 /* identical to box height */
 
     text-align: center;
-
-
-
-color: #7B7E85;
+    color: #7B7E85;
+    
 }
 
 
-
+.politics-confidentiality {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* 4 */
+    
+    color: #7B7E85;
+    
+     
+}
 
 
 
@@ -810,7 +843,12 @@ body {
 }
 
   
+.menu-list {
+    display: flex;
+    list-style: none;
+}
 
-    
+
+
 
 
