@@ -147,7 +147,7 @@ main {
     text-align: center;
     
     color:  #FFFFFF;
-  
+    margin: 0;
    
 }
 
@@ -224,7 +224,8 @@ main {
 
 
 .navugatuon-blok {
-    background-color: #20242D;
+    max-width: 1400px;
+    margin: 0 auto;
     padding-top: 12px;
     padding-bottom: 7px;
     display: flex;
@@ -318,6 +319,20 @@ main {
 
 .info {
 
+}
+
+.info-welcome {
+    background-color: #20242D;
+}
+
+.section-info-wrapper {
+    background-image: radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-bottom: 290px;
+    padding-top: 271px;
 }
 
 .dg img {
@@ -515,14 +530,8 @@ main {
     font-size: 48px;
     line-height: 97%;
     color: #20242D;
-   
-
-    margin-left: ;
     margin-top: 125px;
-    
-    
-  
-   
+    background-color: #20242D;
 }
 
 .address {
@@ -569,8 +578,8 @@ main {
     line-height: 19px;
     color: #7B7E85;
     
-    margin-top: 357px;
-    margin-left: ;
+    
+ 
    
 }
 
@@ -593,8 +602,6 @@ main {
     font-size: 16px;
     line-height: 19px;
     color: #20242D;
-    margin-top: ;
-    margin-left: ;
 
 }
 
@@ -633,7 +640,10 @@ main {
     color: #7B7E85;
     display: flex;
     justify-content: space-between;
-    
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 .data-protection {
