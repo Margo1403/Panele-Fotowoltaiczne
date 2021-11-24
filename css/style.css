@@ -317,8 +317,17 @@ main {
     padding: 0; 
 }
 
-.info {
 
+.info-heading {
+    background-image: radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), url('../img/about-us.jpg');
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-bottom: px;
+    padding-top: px;
+ 
 }
 
 .info-welcome {
@@ -346,24 +355,50 @@ main {
     font-size: 48px;
     line-height: 97%;
     /* identical to box height, or 47px */
-    color: #20242D;
+    color: #FFFFFF;
    margin-left: 217px;
+  
+   
+  
+  
+
     
 }
 
 .wrapper-info {
     
-}
+    vertical-align: top;
+    width: 1134px;
+    height: 168px;
+    left: 200px;
+    top: 521px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 91px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 266px;
+    
+    }
 
 
-.info-text {
+.info-description {
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
 /* or 150% */
- color: #20242D;
+    color: #20242D;
+    white-space: normal;
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+   
+
+  
+
+
 
 }
 
@@ -388,6 +423,7 @@ main {
     text-align: center;
     
     color: #FFFFFF;
+    background:transparent;
      
 }
 
@@ -520,7 +556,7 @@ main {
 }
 
 .info {
-
+  
 }
 
 .navigation {
@@ -708,10 +744,12 @@ body {
 .header-wrapper {
     padding-left: 50px;
     padding-right: 50px;
+    order: -1;
 }
 
 .header-block-main {
     background-color: #20242D;
+    order: -2;
 }
 
 
@@ -849,7 +887,8 @@ body {
 
 
 .page-header {
-
+    display: flex;
+    flex-direction: column;
 }
 
   
