@@ -187,9 +187,91 @@ main {
 }
 
 
-.pfoto-paneli {
+
+.solar-panels {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+    padding-top: 32px;
+    padding-left: 451px;
+    padding-bottom: 24px;
+    padding-right: 450px;
 
 }
+
+
+.return-investment {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #20242D;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 476px;
+    padding-right: 24px;
+    height: 90px;
+    width: 650px;
+    background: #F5F5F5;;
+    
+
+}
+
+
+
+.highlighted {
+    color: #FF7129; 
+}
+
+
+
+.pfoto-paneli {
+display: block;
+
+width: 800px;
+height: 600px;
+left: 794px;
+top: 1981px;
+
+}
+
+.pfoto-paneli-first {
+    display: block;
+  
+    width: 335px;
+    height: 251px;
+    left: 451px;
+    top: 1981px;
+   
+}
+
+
+
+.wrapper-pfoto-paneli {
+display: flex;
+margin: 0 auto;
+max-width: 699px;
+
+
+}
+
+
+
+.pfoto-instalacja {
+     width: 700px;
+    height: 282px;
+    background: url(image.png);
+    padding-top: 24px;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-bottom: 24px;
+}
+
+
 
 .tvij-dim img {
   
@@ -245,7 +327,7 @@ main {
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
-    
+    border: 1px solid #FF7129;
     text-align: center;
     
     color: #FFFFFF;
@@ -316,18 +398,18 @@ main {
     margin: 0;
     padding: 0; 
 }
-
-
-.info-heading {
+.photo-o-nas {
     background-image: radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%, #20242D 100%), url('../img/about-us.jpg');
     background-repeat: no-repeat;
-    background-repeat: no-repeat;
     background-size: cover;  
-    max-width: 1600px;
     margin: 0 auto;
-    padding-bottom: px;
-    padding-top: px;
- 
+    padding-bottom: 103px;
+    padding-top: 57px;
+    width: 1600px;
+}
+
+.info-heading {
+    
 }
 
 .info-welcome {
@@ -356,51 +438,19 @@ main {
     line-height: 97%;
     /* identical to box height, or 47px */
     color: #FFFFFF;
-   margin-left: 217px;
-  
-   
-  
-  
-
-    
+    margin: 0;
+   padding-left: 217px; 
+   padding-top: 200px;  
+   padding-bottom: 103px; 
 }
 
 .wrapper-info {
     
-    vertical-align: top;
-    width: 1134px;
-    height: 168px;
-    left: 200px;
-    top: 521px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 91px;
-    margin-bottom: 200px;
-    margin-left: 200px;
-    margin-right: 266px;
-    
-    }
-
-
-.info-description {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-/* or 150% */
-    color: #20242D;
-    white-space: normal;
-    display: inline-block;
-    width: 48%;
-    vertical-align: top;
-   
-
+   display: block;
   
-
-
-
 }
+
+
 
 
 
@@ -490,8 +540,11 @@ main {
     font-size: 48px;
     line-height: 97%;
     color: #20242D;
+    padding-left: 217px;
 
 }
+
+
 
 
 
@@ -555,8 +608,16 @@ main {
     padding: 0; 
 }
 
-.info {
+.info-description {
+  display: block;
   
+ 
+}
+
+
+.info-description-gray {
+    display: block;
+    background: #F2F2F2;
 }
 
 .navigation {
@@ -577,11 +638,12 @@ main {
     font-size: 16px;
     line-height: 19px;
     color: #7B7E85;
-  
-    
- 
-    
+   
+   
 }
+    
+
+
 
 .address-kontakt {
     font-family: Gilroy;
@@ -589,22 +651,24 @@ main {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-   color: #20242D;
-   margin-top: 149px;
-   margin-left: 201px;
+    color: #20242D;
+    padding-left:14px ;
+  
+    
 }
 
 
-.email {
-    ont-family: Gilroy;
+.E-mail {
+    font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #7B7E85;
-
+   
 
 }
+
 
 .mail-to {
     font-family: Gilroy;
@@ -613,21 +677,20 @@ main {
     font-size: 16px;
     line-height: 19px;
     color: #7B7E85;
-    
-    
- 
-   
+    padding-left:13,35px ;
 }
 
 
-.tel {
+.Telefon {
     font-family: Gilroy;
     font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    color: #20242D;
-
+    color: #7B7E85;
+    
+    
+    
     
 }
 
@@ -638,9 +701,39 @@ main {
     font-size: 16px;
     line-height: 19px;
     color: #20242D;
+    padding-left: 14px;
+    
+    
 
 }
 
+
+.iframe {
+    position: absolute;
+    width: 800px;
+    height: 543px;
+    left: 800px;
+    top: 330px;
+    background: url(.png);
+    
+}
+
+
+.container-wrapper {
+    display: flex;
+   
+}
+
+.wrapper-address {
+    height: 258px;
+    width: 448px;
+    padding-top: 441px;
+    padding-bottom: 174px;
+    padding-left: 201px;
+    padding-right: 151px;
+ 
+    
+}
 
 
 
@@ -715,27 +808,6 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body {
     margin: 0;
     padding: 0;
@@ -782,19 +854,21 @@ body {
 
 
 
-
-
-
-
 .section-title-small {
     font-family: Gilroy;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 44px;
+    /* identical to box height */
+    /* main */
     color: #20242D;
-    margin-right: 467px;
-    margin-left: 591px;
+    padding-left: 467px;
+    padding-top: 64px;
+    padding-right: 451px;
+
+
+
     
 }
 
@@ -805,21 +879,12 @@ body {
     font-size: 72px;
     line-height: 87px;
     /* identical to box height */
-
-    text-align: center;
-
-    color: #FFFFFF;
+     color: #FFFFFF;
+     padding-left: 451px;
+    
 }
 
-.installation-panels {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 87px;
-    text-align: center;
-    color: #FFFFFF;
-}
+
 
 .info-text {
     font-family: Gilroy;
@@ -833,15 +898,6 @@ body {
 
 }
 
-.return-investment {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #20242D;
-
-}
 
 .solar-panel-info {
     font-family: Gilroy;
@@ -849,20 +905,19 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    /* or 150% */
+    /* main */
     color: #20242D;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+
     
 
 }
 
-.solar-panels {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #20242D;
 
-}
 
 .contact-link:first-child {
     margin-right: auto;
@@ -897,6 +952,35 @@ body {
     list-style: none;
 }
 
+
+.panels {
+    display: block;
+}
+
+
+.instalacja {
+  background-image: radial-gradient(50% 179.69% at 50% 50%, rgba(32, 36, 45, 0) 0%,  rgba(32, 36, 45, 0.3), #20242D 100%), url(../img/instalacja.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 0 auto;
+  padding-bottom: 163px;
+  padding-top: 162px;
+  width: 1600px;
+ 
+}
+
+
+.photo {
+   
+    width: 700px;
+    height: 282px;
+    left: 450px;
+    top: 4044px;
+    width: 700px;
+    height: 282px;
+    padding-left: 450px;
+
+}
 
 
 
