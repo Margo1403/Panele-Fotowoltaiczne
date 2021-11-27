@@ -540,7 +540,8 @@ main {
     font-size: 48px;
     line-height: 97%;
     color: #20242D;
-    padding-left: 217px;
+    padding-left: 200px;
+
 
 }
 
@@ -627,7 +628,6 @@ main {
     font-size: 48px;
     line-height: 97%;
     color: #20242D;
-    margin-top: 125px;
     background-color: #20242D;
 }
 
@@ -638,8 +638,8 @@ main {
     font-size: 16px;
     line-height: 19px;
     color: #7B7E85;
-   
-   
+    white-space: nowrap;
+    width: 420px;
 }
     
 
@@ -677,7 +677,8 @@ main {
     font-size: 16px;
     line-height: 19px;
     color: #7B7E85;
-    padding-left:13,35px ;
+    padding-left: 14px;
+    
 }
 
 
@@ -721,21 +722,30 @@ main {
 
 .container-wrapper {
     display: flex;
-   
+   max-width: 1200px;
+   margin-left: 201px;
 }
 
 .wrapper-address {
     height: 258px;
     width: 448px;
-    padding-top: 441px;
+    margin-left: 28px;
+    margin-top: 31px;
     padding-bottom: 174px;
-    padding-left: 201px;
-    padding-right: 151px;
- 
+    padding-right: 151px; 
+  
     
 }
 
+.map {
+  
+    margin-left: 151px;
+    background: url(image.png);
+}
 
+.distance {
+    margin-bottom: 54px;
+}
 
 
 .dg img {
@@ -893,8 +903,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #20242D;
-    margin-top: 180px;
     margin-left: 28px;
+    
 
 }
 
@@ -938,6 +948,8 @@ body {
     display: flex;
     margin: 0 auto;
     max-width: 1200px;
+    margin-top: 133px;
+    margin-bottom: 115px;
 }
 
 
