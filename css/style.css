@@ -59,9 +59,56 @@ body {
 .nav-list {
     display: flex;
     list-style: none;
+   
   
 }
 
+
+.nav-element {
+    margin-right: 56px;
+   
+}
+
+
+.nav-link-active::before {
+    position: absolute;
+    content: "";
+    background-color: #FF7129; 
+    width: 10px;
+    height: 1px;
+    left: 0;
+    top: 10px;
+   
+      
+}  
+
+.nav-link-active::after {
+    position: absolute;
+    content: "";
+    background-color: #FF7129; 
+    width: 10px;
+    height: 1px;
+    left:111px;
+    top: 10px;
+}
+     
+
+.nav-link-active {
+    color: #FF7129;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 0 auto;
+    position: relative;
+   
+   
+    
+
+}
 
 
 .nav-link,
@@ -75,9 +122,7 @@ body {
     color: #20242D;
 }
 
-.nav-element {
-    margin-right: 56px;
-}
+
 
 .nav-element:last-child {
     margin: 0;
@@ -194,76 +239,79 @@ main {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #20242D;
-    padding-top: 32px;
-    padding-left: 451px;
-    padding-bottom: 24px;
-    padding-right: 450px;
+    color: #20242D;  
+    
 
 }
 
+.list-item {
+    background: #F2F2F2;
+    padding-left: 57px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    background-image: url('../img/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    margin-bottom: 16px;
+}
 
 .return-investment {
     font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     color: #20242D;
-    height: 90px;
     width: 650px;
     background: #F5F5F5;
-    margin-left: 451px;
-    
+    padding: 16px 24px;
+
+    /* padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px; */
 
 }
 
 .gray {
-    width: 698px;
-    height: 122px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 24px;
-    display: block;
-    
   
+  width: 698px;
+  height: 122px;
 }
 
 
+.gray-list-solar {
+   /* margin-left: 24px;
+   margin-top: 24px; */
 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.gray-lis {
+    padding-left: 450px;
+    padding-right: 450px; 
+}
 
 .highlighted {
     color: #FF7129; 
 }
 
-
-
 .pfoto-paneli {
     display: block;
-    width: 387px;
-    height: 290px;
-    left: 794px;
-    top: 1981px;
-
-}
-
-.pfoto-paneli-first {
-    display: block;
   
-    width: 335px;
-    height: 251px;
-    left: 451px;
-    top: 1981px;
+    /* width: 335px;
+    height: 251px; */
    
 }
 
 
-
 .wrapper-pfoto-paneli {
-display: flex;
-margin: 0 auto;
-max-width: 699px;
-
+    display: flex;
+    margin: 0 auto;
+    max-width: 699px;
+    justify-content: space-between;
 
 }
 
@@ -272,10 +320,7 @@ max-width: 699px;
 .pfoto-instalacja {
      width: 700px;
     height: 282px;
-    background: url(image.png);
     padding-top: 24px;
-    padding-left: 450px;
-    padding-right: 450px;
     padding-bottom: 24px;
 }
 
@@ -384,9 +429,57 @@ body {
     line-height: 14px;
     text-decoration: none;
   
+     
+}
+
+.contact-link-mail {
+    color: #FFFFFF;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 77px;
+    text-decoration: none;
+   
+       
+}
+
+.contact-link-mail::before {
+    background: url('../img/meil.svg') no-repeat left center;
+    position: absolute;
+    content: "";
+    width: 11.76px;
+    height: 10.5px;
+    left: 1010px;
+    top: 11.75px;
+    
+    
 }
 
 
+.contact-link-tel {
+    color: #FFFFFF;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none; 
+    
+}
+
+.contact-link-tel::before {
+    background: url('../img/tel.svg') no-repeat left center; 
+    position: absolute;
+    content: "";
+    width: 10.5px;
+    height: 10.5px; 
+    left: 1245px;
+    top: 11.75px;
+    
+   
+}
 
 .nav-link {
     text-decoration: none;
@@ -453,9 +546,10 @@ main {
 }
 
 .wrapper-info {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
     
-   display: block;
-  
 }
 
 
@@ -597,8 +691,6 @@ main {
 
 .logo img {
  
-    
-
 }
 
 
@@ -609,7 +701,7 @@ main {
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-
+    text-decoration: none;
 }
 
 main {
@@ -619,26 +711,32 @@ main {
 
 .info-description {
   display: block;
+  padding-top: 120px;
   
  
 }
 
+.info-description-next {
+    display: block;
+    padding-top: 64px;  
+}
 
 .info-description-gray {
     display: block;
-    background: #F2F2F2;
+    padding-top: 66px;
    
-     
 }
 
 
 .gray-two {
-  
-    height: 236px;
-    padding-bottom: 120px;
-    padding-left: 66px;
-    
+    background: #F2F2F2;
+    padding: 32px 24px;
 }
+
+.gray-two .solar-panel-info {
+    padding: 0;
+    margin: 0;
+} 
 
 
 .navigation {
@@ -743,7 +841,7 @@ main {
 .container-wrapper {
     display: flex;
    max-width: 1200px;
-   margin-left: 201px;
+   margin-left: 173px;
 }
 
 .wrapper-address {
@@ -759,7 +857,7 @@ main {
 
 .map {
   
-    margin-left: 151px;
+    margin-left: 134px;
     background: url(image.png);
 }
 
@@ -858,15 +956,13 @@ body {
 
 
 
-.nav-link-active {
-    color: #FF7129;
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
 
-}
+
+
+ 
+    
+    
+    
 
 /* .intro {
     background-image: url("../img/bg.jpg");
@@ -890,16 +986,22 @@ body {
     font-weight: bold;
     font-size: 36px;
     line-height: 44px;
-    /* identical to box height */
-    /* main */
-    color: #20242D;
-    padding-left: 467px;
-    padding-top: 64px;
-    padding-right: 451px;
+    color: #20242D;   
+    margin: 0; 
+    padding-left: 16px;
 
+    position: relative;
+}
 
+.section-title-small::before {
+    position: absolute;
+    content: "";
 
-    
+    background: #FF7129;
+    width: 1px;
+    height: 42px;
+    left: 0;
+    top: 0;
 }
 
 .installation-panels {
@@ -919,7 +1021,7 @@ body {
 .info-text {
     font-family: Gilroy;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400px;
     font-size: 16px;
     line-height: 24px;
     color: #20242D;
@@ -935,11 +1037,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
-    /* main */
     color: #20242D;
-    padding-left: 450px;
-    padding-right: 450px;
     padding-bottom: 24px;
     padding-top: 24px;
 
@@ -955,6 +1053,7 @@ body {
 
 .contact-link {
     margin-right: 77px;
+
 }
 
 .contact-link:last-child {
@@ -1006,14 +1105,56 @@ body {
    
     width: 700px;
     height: 282px;
-    left: 450px;
-    top: 4044px;
-    width: 700px;
-    height: 282px;
-    padding-left: 450px;
+  
+}
 
+.wrapper-info-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1134px;
+    padding-top: 80px;
+    padding-bottom: 134px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* main */
+
+    color: #20242D;
 }
 
 
+.photo-work {
+   display: flex;
+   justify-content: space-around;
+    width: 1019px;
+    height: 532px;
+    left: 299px;
+    top: 300px;
+    padding-bottom: 153px;
+    padding-left: 35px;
+
+    background: url(IMG_20201005_121850.jpg);
+    }
+
+.pfoto-projekty {
+    width: 1019px;
+    height: 532px;
+    left: 299px;
+    top: 300px;
+    
+    background: url(IMG_20201005_121850.jpg);
+    
+}
+
+
+.wrapper-info-flex .info-description {
+    max-width: 500px;
+}\
 
 
