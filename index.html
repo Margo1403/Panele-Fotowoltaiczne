@@ -113,7 +113,7 @@
                     </li>
                 </ul>
             </nav>
-            <button class="button-transparent-open-popup">
+            <button class="button-transparent open-popup">
                      Oddzwoń
             </button>
         </div>
@@ -131,13 +131,15 @@
            <h2 class="call-me-back">Oddzwoń</h2>
            <p class="feedback-call">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania.</p>
       
-            <label class="input-name">Twoje imię </label>
-            <input type="text-name" placeholder="Wprowadź swoje imię" id="input-name">
-            
-            <label class="input-tel">Telefon</label>
-            <input type="text" placeholder="Wprowadź telefon" id="input-tel">
-        
-          
+           <div class="label-wrapper">
+            <label class="input-name">Twoje imię 
+                <input type="text-name" placeholder="Wprowadź swoje imię" id="input-name">
+            </label>
+            <label class="input-tel">Telefon
+                <input type="text" placeholder="Wprowadź telefon" id="input-tel">
+            </label>
+
+          </div>
             
             <button class="orange-Zadzwoń">
                      Zadzwoń 
@@ -147,6 +149,11 @@
             </button>                
        </section>
    </div>
-   <script src=""></script> 
+   
+   <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+   <script src="js/script.js"></script> 
 </body>
 </html>
