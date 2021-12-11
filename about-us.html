@@ -16,12 +16,12 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-element">
-                        <a  class="nav-link nav-link-active" href="#">
+                        <a  class="nav-link " href="#">
                             Strona główna
                         </a>
                     </li>
                     <li class="nav-element">
-                        <a class="nav-link " href="#">
+                        <a class="nav-link nav-link-active" href="#">
                             O nas 
                         </a>
                     </li>
@@ -46,8 +46,8 @@
         
         <div class="header-wrapper header-block-main">
             <address class="contact-link">Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek</address>
-            <a class="contact-link-mail" href="mailto:dorotapawezka@gmail.com">dorotapawezka@gmail.com</a>
-            <a class="contact-link-tel" href="tel:+48695716531">+48695716531</a>
+            <a class="contact-link contact-link-mail" href="mailto:dorotapawezka@gmail.com">dorotapawezka@gmail.com</a>
+            <a class="contact-link contact-link-tel" href="tel:+48695716531">+48695716531</a>
         </div>
     </header>
 
@@ -122,22 +122,28 @@
     </footer>
     <div class="modal-wrapper">
         <section class="feedback">
-            <h2 class="call-me-back">Oddzwon</h2>
-            <p class="feedback-call">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania.</p>
-            <label for="input-name">Twoje imię
-                 <input type="text" placeholder="Wprowadź swoje imię" id="input-name">
-             </label>
-             <label for="input-tel">Telefon
-                 <input type="text" placeholder="Wprowadź telefon" id="input-tel">
-             </label>
-             <button class="orange">
-                 Zadzwoń 
-             </button>
-             <button class="close-popup-button">
-                 <span class="visually-hidden">blisko</span>
-             </button>                
+            <form>
+                <h2 class="call-me-back">Oddzwon</h2>
+                <p class="feedback-call">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania.</p>
+                <label for="input-name">Twoje imię
+                    <input type="text" placeholder="Wprowadź swoje imię" id="input-name">
+                </label>
+                <label for="input-tel">Telefon
+                    
+                    <input type="text" placeholder="Wprowadź telefon" id="input-tel">
+                </label>
+                <button class="orange">
+                    Zadzwoń 
+                </button>
+                <button class="close-popup-button">
+                    <span class="visually-hidden">blisko</span>
+                </button>                
+            </form>
+
         </section>
+        
+        
     </div>
-    
+    <script src=""></script>
 </body>
 </html>

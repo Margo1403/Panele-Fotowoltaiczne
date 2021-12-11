@@ -45,8 +45,8 @@
         </div>
         <div class="header-wrapper header-block-main">
             <address class="contact-link">Dąbrówka Wielkopolska, ul. Główna 53, 66-210 Zbąszynek</address>
-            <a class="contact-link-mail" href="mailto:dorotapawezka@gmail.com">dorotapawezka@gmail.com</a>
-            <a class="contact-link-tel" href="tel:+48695716531">+48695716531</a>
+            <a class="contact-link contact-link-mail" href="mailto:dorotapawezka@gmail.com">dorotapawezka@gmail.com</a>
+            <a class="contact-link contact-link-tel" href="tel:+48695716531">+48695716531</a>
         </div>
     </header>
     
@@ -113,7 +113,7 @@
                     </li>
                 </ul>
             </nav>
-            <button class="button-transparent">
+            <button class="button-transparent-open-popup">
                      Oddzwoń
             </button>
         </div>
@@ -128,22 +128,25 @@
     </footer>
    <div class="modal-wrapper">
        <section class="feedback">
-           <h2 class="call-me-back">Oddzwon</h2>
+           <h2 class="call-me-back">Oddzwoń</h2>
            <p class="feedback-call">Zostaw swoje dane, a nasz menedżer skontaktuje się z Tobą, aby odpowiedzieć na Twoje pytania.</p>
-           <label for="input-name">Twoje imię
-                <input type="text" placeholder="Wprowadź swoje imię" id="input-name">
-            </label>
-            <label for="input-tel">Telefon
-                <input type="text" placeholder="Wprowadź telefon" id="input-tel">
-            </label>
-            <button class="orange">
+      
+            <label class="input-name">Twoje imię </label>
+            <input type="text-name" placeholder="Wprowadź swoje imię" id="input-name">
+            
+            <label class="input-tel">Telefon</label>
+            <input type="text" placeholder="Wprowadź telefon" id="input-tel">
+        
+          
+            
+            <button class="orange-Zadzwoń">
                      Zadzwoń 
             </button>
-            <button class="close-popup-button">
-                <span class="visually-hidden">blisko</span>
+            <button class="close-feedback">
+                <span class="close"><img src="./img/x.svg" alt="icon"></span>
             </button>                
        </section>
    </div>
-    
+   <script src=""></script> 
 </body>
 </html>
