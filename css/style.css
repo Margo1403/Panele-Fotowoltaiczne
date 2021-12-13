@@ -917,22 +917,7 @@ main {
      
 }
 
-.infirming-confidentiality {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
 
-    text-align: center;
-    color: #7B7E85;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding-bottom: 24px;
-    padding-top: 24px;
-}
 
 .data-protection {
     font-family: Gilroy;
@@ -1189,6 +1174,8 @@ body {
 }
 
 
+
+
 /*  попап*/
 
 .modal-wrapper {
@@ -1201,10 +1188,8 @@ body {
  
    display: block;
    display: flex;
-   justify-content: center;
-   
+   justify-content: center;  
 } 
-
 
 .modal-wrapper::before {
    
@@ -1243,16 +1228,7 @@ body {
     color: #20242D;
     padding-top: 69px;
     padding-left: 75px;
-    padding-right: 218px;
- 
-  
-
-    
-  
-   
-  
-
-    
+    padding-right: 218px;    
 }
 
 .call-me-back::after {
@@ -1261,15 +1237,8 @@ body {
     background: #FF7129;
     width: 1px; 
     height: 52px; 
-    left: 58px; 
-   
-
-  
+    left: 58px;    
 }
-
-  
-
-
 
 .feedback-call {
     font-family: Gilroy;
@@ -1285,6 +1254,21 @@ body {
    
 }
 
+.infirming-confidentiality {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-align: center;
+    color: #7B7E85;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 24px;    
+}
 
 .input-name {
     display: block;
@@ -1316,7 +1300,8 @@ input[type="text-name"] {
     box-sizing: border-box;
     outline: none;
     height: 52px;
-    width: 327px;    
+    width: 327px;  
+    margin-top: 12px;
 }
 
 
@@ -1327,12 +1312,8 @@ input[type="text-name"] {
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    color: #7B7E85;
-  
-    
-   
+    color: #7B7E85;      
 }
-
 
 .text {
     font-family: Gilroy;
@@ -1341,8 +1322,8 @@ input[type="text-name"] {
     font-size: 16px;
     line-height: 19px;
     color: #7B7E85;
+    margin-top:64px
 }
-
 
 input[type="text"] {
     border: 1px solid #E0E0E0; 
@@ -1350,9 +1331,8 @@ input[type="text"] {
     outline: none;
     height: 52px;
     width: 327px;
-   
+    margin-top: 12px;
 }
-
 
 .orange-Zadzwoń {
     font-family: Gilroy;
@@ -1364,14 +1344,11 @@ input[type="text"] {
     
     color: #FFFFFF; 
     background: #FF7129;
-    display: block;
+    
     margin-left: 59px;
     margin-right: 554px;
     margin-top: 40px;
-    margin-bottom: 72px;
-    width: 187px;
-   
- 
+    
     padding-right:47px ;
     padding-left: 48px;
     padding-top: 16px;
@@ -1385,9 +1362,220 @@ input[type="text"] {
     right: 30px;
     background: #FFFFFF;
     cursor: pointer;
+    border: none;
 }
 
 .label-wrapper {
     display: flex;
     padding: 0 58px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+.modal-cection {
+    display: block;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.modal-price {
+    position: relative;
+    width: 800px;
+   
+    background: #FFFFFF;
+    margin-left: 400px;
+    margin-bottom: 94px;
+    margin-right: 400px;
+    margin-top: 223px;
+}
+
+.modal-cection::before {
+    position: fixed;
+    content: "";
+    width: 593px;
+    height:71px; 
+
+    background-image: url('../img/Calculator.svg');
+    background-repeat: no-repeat;
+    z-index: 1;
+    top: 251px;
+    left: 432px;
+
+}
+.price {
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 97%;
+    color: #20242D;
+
+    margin-left: 75px;
+    margin-right: 409px;
+    margin-top:97px
+    
+}
+.price::after {
+    position: absolute;
+    content: "";
+    background: #FF7129;
+    width: 1px; 
+    height: 52px; 
+    left: 58px;  
+}
+.text-data {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+
+  
+    padding-left: 58px;
+    padding-bottom: 17px;
+    padding-right: 409px;
+    white-space: pre; 
+}
+
+.text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7E85;
+
+    margin-left: 58px;
+    margin-top: 56px;   
+}
+.kw {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #20242D;
+
+    margin-right: 58px;
+    margin-bottom: 77px;
+}
+
+.labels-data {
+    display: flex;
+    padding: 0 58px; 
+}
+.direction {
+    display: block;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7E85;   
+}
+
+.side {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 17px;
+    padding-right:200px
+}
+
+input[type="side"] {
+    border: 1px solid #E0E0E0; 
+    box-sizing: border-box;
+    outline: none;
+    height: 52px;
+    width: 327px;  
+    margin-top: 12px;
+}
+
+.roof-material {
+    display: block;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7B7E85;       
+} 
+
+.material {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7E85;
+
+    margin-top: 56px;    
+} 
+
+input[type="material"] {
+    border: 1px solid #E0E0E0; 
+    box-sizing: border-box;
+    outline: none;
+    height: 52px;
+    width: 327px;
+    margin-top: 12px;
+}
+
+.orange-payment {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #FFFFFF; 
+    background: #FF7129;
+    
+    margin-left: 307px;
+    margin-right: 306px;
+    margin-top: 56px;
+    margin-bottom: 72px;
+    
+    padding-right:66px ;
+    padding-left: 65px;
+    padding-top: 16px;
+    padding-bottom: 16px;   
+}
+
+
+
+
+
+
+
+
+
+.second {
+    display: block;
+    display: flex;
+    justify-content: center;   
+}
+
+.about-money {
+
 }
